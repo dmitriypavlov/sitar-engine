@@ -1,0 +1,11 @@
+{
+    "placeholder-email": "E-mail",
+    "placeholder-password": "Пароль",
+    "button-login": "Войти",
+    "mail-success": "Спасибо, мы получили ваше сообщение.",
+    "mail-failed": "Сообщение не было отправлено.",
+    "content1-header": "<h1>Заголовок 1<\/h1>",
+    "content1-paragraph": "<p>Параграф 1<\/p>",
+    "content2-header": "<h1>Заголовок 2<\/h1>",
+    "content2-paragraph": "<p>Параграф 2<\/p>"
+}

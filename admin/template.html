@@ -1,0 +1,33 @@
+<?php
+
+$email = "admin@sitar.one";
+$password = "admin@sitar.one";
+
+if (isset($_POST["email"]) && $_POST["email"] == $email &&
+	isset($_POST["password"]) && $_POST["password"] == $password) {
+	
+	session("admin", "true");
+}
+
+if (!session("admin")) {
+
+	require_once("template/header.html"); ?>
+
+	<section id="login">
+
+		<form id="form-login" method="post">
+			<input type="email" name="email" placeholder="<?=$data->show('placeholder-email', false)?>">
+			<input type="password" name="password" placeholder="<?=$data->show('placeholder-password', false)?>"></input>
+			<input type="submit" value="<?=$data->show('button-login', false)?>">
+		</form>
+
+	</section>
+
+	<?php require_once("template/footer.html");
+}
+
+if (session("admin")) {
+	
+	require_once($_SERVER["DOCUMENT_ROOT"] . "/component/tinyfilemanager.php");
+	exit();
+}

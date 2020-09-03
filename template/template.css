@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic-ext");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap&subset=cyrillic-ext"); */
+
+:root {
+	--font-header: "Open Sans Condensed";
+	--font-paragraph: "Open Sans";
+	/* --font-header: "Roboto Condensed";
+	--font-paragraph: "Roboto"; */
+	--content-width: 80%;
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	transition: all 0.4s ease-in-out;
+}
+
+h1, h2, h3, h4 {
+	font-family: var(--font-header);
+	margin: 0;
+}
+
+content {
+	display: block;
+	width: var(--content-width);
+	min-height: 100%;
+	font-family: var(--font-paragraph);
+	margin: 0 auto;
+}
+
+/* mobile */
+
+@media (max-width: 1024px) {
+
+	:root {
+		--content-width: 100%;
+	}
+
+}
