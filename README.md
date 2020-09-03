@@ -164,3 +164,5 @@ Sitar поддерживает множественные шаблоны `templa
 ```php
 <?php require_once("template/header.html")?>
 ```
+
+### Функциональные модули
