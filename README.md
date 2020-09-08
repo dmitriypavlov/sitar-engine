@@ -4,6 +4,13 @@
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/dmitriypavlov/sitar-engine?color=orange&label=Sitar%20Web%20Engine)](https://github.com/dmitriypavlov/sitar-engine/releases)
 
+Запуск локального сервера для разработки
+
+```bash
+cd sitar-engine
+php -S localhost:8080 ./router.php
+```
+
 ## Оглавление
 
 - [Введение](#Введение)
