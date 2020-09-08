@@ -1,5 +1,11 @@
 <?php
 
+// Sitar Web Engine
+// Dmitriy Pavlov (@dmitriypavlov)
+// https://github.com/dmitriypavlov/sitar-engine
+
+define("SITAR", "1.0");
+
 // NOTE: debug
 
 ini_set("display_errors", true);
