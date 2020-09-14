@@ -2,7 +2,7 @@
 //Default Configuration
 $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":true,"calc_folder":true}';
 
-define('FM_SELF_URL', 'https://' . $_SERVER['SERVER_NAME'] . '/admin');
+define('FM_SELF_URL', 'https://' . $_SERVER['SERVER_NAME'] . '/admin/');
 
 /**
  * H3K | Tiny File Manager V2.4.3
