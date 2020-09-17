@@ -4,9 +4,9 @@
 
 [![](https://img.shields.io/github/v/release/dmitriypavlov/sitar-engine?color=green&label=Sitar%20Web%20Engine)](https://github.com/dmitriypavlov/sitar-engine/releases) [![](https://img.shields.io/badge/Sitar%20Web%20Engine-GIT-orange)](https://github.com/dmitriypavlov/sitar-engine/archive/master.zip)
 
-Текущая версия `GIT` может содержать изменения еще не вошедшие в актуальный релиз.
+Текущая [версия GIT](https://github.com/dmitriypavlov/sitar-engine/archive/master.zip) может содержать изменения еще не вошедшие в [актуальный релиз](https://github.com/dmitriypavlov/sitar-engine/releases).
 
-Запуск локального сервера для разработки проекта:
+Запуск локального сервера PHP для разработки проекта:
 
 ```bash
 cd sitar-engine
