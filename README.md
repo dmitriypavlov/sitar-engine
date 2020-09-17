@@ -1,8 +1,10 @@
 # Sitar Web Engine
 
-## Актуальный релиз
+## Релизы версий
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dmitriypavlov/sitar-engine?color=orange&label=Sitar%20Web%20Engine)](https://github.com/dmitriypavlov/sitar-engine/releases)
+[![](https://img.shields.io/github/v/release/dmitriypavlov/sitar-engine?color=green&label=Sitar%20Web%20Engine)](https://github.com/dmitriypavlov/sitar-engine/releases) [![](https://img.shields.io/badge/Sitar%20Web%20Engine-GIT-orange)](https://github.com/dmitriypavlov/sitar-engine/archive/master.zip)
+
+Текущая версия `GIT` может содержать изменения еще не вошедшие в актуальный релиз.
 
 Запуск локального сервера для разработки проекта:
 
@@ -315,6 +317,19 @@ function init() {
 
 		// ...
 	});
+
+	// ...
+}
+```
+
+Аналогичным способом загружаются дополнительные файлы CSS (функция `load()` автоматически определяет тип ресурса, исходя расширения файла):
+
+```javascript
+function init() {
+
+	// ...
+
+	load("/template/mobile.css");
 
 	// ...
 }
