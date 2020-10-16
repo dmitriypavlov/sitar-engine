@@ -6,8 +6,8 @@ function edit(node) {
 	if (editable == "false") {
 		if (typeof preedit === "function") preedit(node);
 		value = node.html();
-		value = value.replace("<!--?", "<?");
-		value = value.replace("?-->", "?>");
+		value = value.replaceAll("<!--?", "<?");
+		value = value.replaceAll("?-->", "?>");
 		node.text(value);
 		node.attr("contenteditable", "true");
 		console.log("editable.js: " + key);
