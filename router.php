@@ -6,10 +6,15 @@
 
 define("SITAR", "1.0");
 
-// NOTE: debug
+// DEBUGGER
+// https://github.com/nette/tracy
 
-ini_set("display_errors", true);
-ini_set("error_reporting", E_ALL);
+require_once(__DIR__ . "/component/tracy.phar");
+
+use Tracy\Debugger;
+Debugger::$strictMode = true;
+// Debugger::enable(Debugger::DETECT, __DIR__ . "/storage/log");
+// Debugger::enable(Debugger::DEVELOPMENT);
 
 // client request
 
