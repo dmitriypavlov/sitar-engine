@@ -4,7 +4,7 @@
 // Dmitriy Pavlov (@dmitriypavlov)
 // https://github.com/dmitriypavlov/sitar-engine
 
-define("SITAR", "1.0");
+define("SITAR", "1.1");
 
 // DEBUGGER
 // https://github.com/nette/tracy
