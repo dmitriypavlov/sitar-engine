@@ -13,7 +13,7 @@ require_once(__DIR__ . "/component/tracy.phar");
 
 use Tracy\Debugger;
 Debugger::$strictMode = true;
-// Debugger::enable(Debugger::DETECT, __DIR__ . "/storage/log");
+// Debugger::enable(Debugger::PRODUCTION, __DIR__ . "/storage/log");
 // Debugger::enable(Debugger::DEVELOPMENT);
 
 // client request

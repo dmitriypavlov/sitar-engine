@@ -341,10 +341,10 @@ function init() {
 ### Отладка
 
 В качестве отладчика Sitar использует [Tracy](https://github.com/nette/tracy).
-Для активации отладчика в режимах DETECT или DEVELOPMENT (см. [документацию](https://tracy.nette.org/en/guide)) необходимо раскомментировать соответствующую строку в файле `router.php`
+Для активации отладчика в режимах PRODUCTION или DEVELOPMENT (см. [документацию](https://tracy.nette.org/en/guide)) необходимо раскомментировать соответствующую строку в файле `router.php`
 
 ```php
-// Debugger::enable(Debugger::DETECT, __DIR__ . "/storage/log");
+// Debugger::enable(Debugger::PRODUCTION, __DIR__ . "/storage/log");
 // Debugger::enable(Debugger::DEVELOPMENT);
 ```
 
